@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin: 0;}
+
+
+        header {text-align: center; height: 100px; padding: 30px;  text-align: center;}
+    
+        header > div {margin: 30px auto; ;height: 50px; width: 500px;}
+
+        .product {width:1000px; height: 1000px; margin: 0 auto;}
+
+        .product > h1 {color: red; text-align: center; text-transform: uppercase; ; letter-spacing: 5px;
+        padding: 10px;}
+
+        .product > p {color:#000; font-size: 20px; text-align: center; padding: 10px;}
+
+        .box {width: 200px; height: 280px;float: left;  border: 1px solid white;
+        margin: 20px 15px; padding: 5px; text-align: center; background-color: #fff; }
+        .box:hover { opacity: 0.7; border-color: #ddd; }
+
+
+       
+        .product > div:nth-of-type(1) {margin: 20px 20px 0 25px;}  
+        .product > div:nth-of-type(5) {margin: 20px 20px 0 25px;}
+
+        .box > a > img {width: 100%; border-radius: 10px;}
+        .box > h5 > a {text-decoration: none; color: #000;}
+        .box > p > a {font-size: 12px; text-align: center; color: #000; line-height: 20px; text-decoration: none;}  
+
+        section > div > button {border: 0; border-radius: 5px; color: #fff; font-size: 12px;}
+
+
+        #new > .box > button {background-color:aquamarine; float: right;}
+        #best > .box > button {background-color:tomato; float: right;}
+        header > div > button {float: left; font-size: 20px; color: gray;  height: 40px; margin: 0 10px; 
+            border: None; border-radius: 10px; background-color: white; }
+        header > div > button:hover {background-color:gray ; color: white;}
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>홈데코</h1>
+        <div>
+            <button>전체</button>
+            <button>인테리어 소품</button>
+            <button>캔들/디퓨저</button>
+            <button>홈앤가든</button>     
+        </div>
+
+    </header>
+ 
+    <section id="new" class="product">
+
+        <h1>NEW</h1>
+        <p>가장 먼저 만나는 신제품</p>
+        <hr>
+        <div class="box">
+            <a href="#"><img src="img\new\1.jpg" alt="상품1"></a> 
+            <h5><a href="#">스윙 벽시계 크림</a></h5>
+            <p><a href="#">39,900원</a></p>
+            <button>new</button>
+        </div>
+        <div class="box">
+            <a href="#"><img src="img\new\2.jpg" alt="상품2"></a>
+            <h5><a href="#">버블 벽거울L 크림</a></h5>
+            <p><a href="#">19,900원</a></p>
+            <button>new</button>
+        </div>    
+        <div class="box">
+            <a href="#"><img src="img\new\3.jpg" alt="상품3"></a>
+            <h5><a href="#">마이홈센트 폴인러브 디퓨저 180ml</a></h5>
+            <p><a href="#">25,900원</a></p>
+            <button>new</button>
+        </div>
+        <div class="box">
+            <a href="#"><img src="img\new\4.jpg" alt="상품3"></a>
+            <h5><a href="#">미드센츄리 라운드거울S 골드</a></h5>
+            <p><a href="#">15,900원</a></p>
+            <button>new</button>
+        </div>
+        <div class="box">
+            <a href="#"><img src="img\new\5.jpg" alt="상품1"></a> 
+            <h5><a href="#">보네르 소프트토프 디퓨져 150ml</a></h5>
+            <p><a href="#">25,90원></a></p>
+            <button>new</button>
+        </div>
+        <div class="box">
+            <a href="#"><img src="img\new\6.jpg" alt="상품2"></a>
+            <h5><a href="#">플라워부테 미스틱바이올렛 디퓨저 120ml</a></h5>
+            <p><a href="#">15,900원</a></p>
+            <button>new</button>
+        </div>    
+        <div class="box">
+            <a href="#"><img src="img\new\7.jpg" alt="상품3"></a>
+            <h5><a href="#">올리브 가지 70cm</a></h5>
+            <p><a href="#">7,900원</a></p>
+            <button>new</button>
+        </div>
+        <div class="box">
+            <a href="#"><img src="img\new\8.jpg" alt="상품3"></a>
+            <h5><a href="#">페이크북 그린컨트리홈H26.5</a></h5>
+            <p><a href="#">5,900원</a></p>
+            <button>new</button>
+        </div>
+        
+    </section>
+
+    <section id="best" class="product">
+        <h1>BEST</h1>
+        <p>1주일 동안 가장 많이 팔린 제품</p>
+        <hr>
+        <div class="box">
+            <a href="#"><img src="img\best\1.jpg" alt="상품1"></a> 
+            <h5><a href="#">프렌치 드로잉_화명 레이디</a></h5>
+            <p><a href="#">23,900원</a></p>
+            <button>HOT</button>
+        </div>
+        <div class="box">
+            <a href="#"><img src="img\best\2.jpg" alt="상품2"></a>
+            <h5><a href="#">썸머파라다이스 몰타 우디버베나 180ml</a></h5>
+            <p><a href="#">25,900원</a></p>
+            <button>HOT</button>
+        </div>    
+        <div class="box">
+            <a href="#"><img src="img\best\3.jpg" alt="상품3"></a>
+            <h5><a href="#">버블 벽거울L 크림</a></h5>
+            <p><a href="#">19,900원</a></p>
+            <button>HOT</button>
+        </div>
+        <div class="box">
+            <a href="#"><img src="img\best\4.jpg" alt="상품3"></a>
+            <h5><a href="#">썸머파라다이스 몰타 우디버베나 430ml</a></h5>
+            <p><a href="#">39,900원</a></p>
+            <button>HOT</button>
+        </div>
+        <div class="box">
+            <a href="#"><img src="img\best\5.jpg" alt="상품1"></a> 
+            <h5><a href="#">스윙 벽시계 그레이</a></h5>
+            <p><a href="#">39,900원></a></p>
+            <button>HOT</button>
+        </div>
+        <div class="box">
+            <a href="#"><img src="img\best\6.jpg" alt="상품2"></a>
+            <h5><a href="#">버블 벽거울M 머스터드</a></h5>
+            <p><a href="#">15,900원</a></p>
+            <button>HOT</button>
+        </div>    
+        <div class="box">
+            <a href="#"><img src="img\best\7.jpg" alt="상품3"></a>
+            <h5><a href="#">감성 비오는 편백나무 숲 사쉐</a></h5>
+            <p><a href="#">3,900원</a></p>
+            <button>HOT</button>
+        </div>
+        <div class="box">
+            <a href="#"><img src="img\best\8.jpg" alt="상품3"></a>
+            <h5><a href="#">페이크북 샌드메모라이즈H22.5</a></h5>
+            <p><a href="#">4,900원</a></p>
+            <button>HOT</button>
+        </div>
+        
+    </section>
+    
+</body>
+</html>
